@@ -20,6 +20,10 @@ Best regards,
 
 P. Williams
 
+#Readings:
+
+https://12factor.net
+
 # Submit any questions or Issues to the Repository, so that they can be tracked and resolved.
 
 ## Project Introduction
