@@ -1,11 +1,22 @@
-Hey there, team MyWebClass.org! Welcome to the gang. I'm your CEO Keith, and I'm glad you're here. We're on a mission to help students crush it in the software industry, and I believe we can do it together.
+Introduction:
+Welcome to MyWebClass.org! Our mission is to revolutionize education in the modern software industry. We value people, learning, efficiency, and dependability. Our founder, Keith Williams, started this organization in 2023 with the goal of helping our community of learners succeed.
 
-But before we get started, let me tell you a little secret. We don't want to go broke! No one wants to be that person on the street asking for spare change, am I right? And why should we risk it? Do we really want to be the ones missing out on vacations or living in a cardboard box? I don't think so!
+To achieve our goal, we need to evaluate and select the best tools and technologies for the development of our Next Generation Learning Management System. We need to test and evaluate a range of technologies, from web frameworks to database systems to build tools and more.
 
-So, we need to get to work and save some money. And we're going to do it by finding those sneaky performance bottlenecks that are wasting our precious time and money. Every second we're down or slow is money out the window, and we don't want to waste a single penny.
+In this project, we will focus on the following areas:
 
-Plus, think of all the other fun things we can do with that money instead! We could go on team trips, upgrade our office snacks, or even buy a pool table! The possibilities are endless.
-
-So, let's get cracking and evaluate our front-end frameworks, build tools, CSS frameworks, and backend hosting options. And don't forget to estimate how much each user is going to cost us on different hardware setups. We need to be prepared and not get caught off guard.
-
-Thanks for joining the team, everyone. Let's make sure we don't end up homeless, missing out on vacations, or begging for change on the street. Together, we can create something awesome and make a real difference in the software industry.
+Front-end Testing:
+We will use Playwright to automate browser testing, Artillery and/or Siege for load testing, and Lighthouse to generate reports on site performance, accessibility, and best practices. The metrics we will measure are page load time, accessibility score, and best practices score.
+Back-end Testing:
+We will automate deployment of backend servers using bash scripts or Terraform and use Oracle hardware to test AMD with 1 core and 2 cores, and Ampere with 2 cores and 4 cores. We will also test the Postgres server to see how much data it consumes as we add in 100, 10,000, and 100,000 users and associated content for those users. The metrics we will measure are response time, database query time, and server resource usage.
+Infrastructure and Configuration Testing:
+We will test node package managers to find the fastest option and build tools like Webpack, Gulp, and Grunt to determine which one is most efficient. We will choose and implement coding standards for JavaScript, CSS, and HTML and automatically test w3c validation, handicap accessibility, and JavaScript style. The metrics we will measure are build time, bundle size, and code quality score.
+Security, Scalability, and User Experience Testing:
+We will test for vulnerabilities and have a plan for responding to security incidents. We will also test for performance bottlenecks and have a plan for scaling up infrastructure. In addition, we will test usability and gather feedback from our community of users. The metrics we will measure are security score, scalability score, and user satisfaction score.
+Deployment and Instructions:
+We will create easy-to-follow instructions for local installation and create instructions for setting up various sized deployments for testing. We will use our special project to explore and evaluate Next.js as it compares to the three CSS frameworks and using static pages. We will also test our existing Flask app that has a Postgres database. We need to come up with test plans for each type of tool and identify metrics for that tool. The metrics we will measure are deployment time, setup time, and test running time.
+Production Readiness:
+We will use automated testing and continuous integration to catch issues early and use a robust logging system to capture errors and monitor performance. We will set up alerts to notify us of critical issues and implement email and external monitoring tools to display important information about server memory, CPU activity, disk space, and service activity on a dashboard. We will develop a logging strategy to track application and server performance. The metrics we will measure are error rate, downtime, and system resource usage.
+Capacity Planning and Cost Estimation:
+We will identify the metrics for each testing category and develop a plan for capacity planning and cost estimation. This plan will include identifying the maximum number of users we can handle, the maximum number of concurrent users, and the amount of storage and bandwidth required for a given number of users. The metrics we will measure are user capacity, concurrent user capacity, storage requirements, and bandwidth requirements.
+In conclusion, by taking all these factors into consideration, we can create a site that is performant, cost-effective, secure, scalable, and user-friendly
