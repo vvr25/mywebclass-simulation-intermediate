@@ -9,7 +9,7 @@ Our origin story began in 2023 when I, Keith Williams, founded MyWebClass.org. A
 
 Now, we are at the first milestone in the development of our company. We want to launch a site as quickly as possible, but we also want to ensure that we launch a product that reflects our mission, vision, and values. That's why we are asking you, our new employees, to form teams to develop competing prototypes of the MyWebClass.org site that will compete in a competition to become the A/B versions of the site that we will test with our first customers.
 
-We are making a customized learning management system that will enable us to deliver on our mission and values. However, to start, we need a site that will help us get the ball rolling. This site must embody our values and reflect our mission and vision.
+We are making a customized learning management system that will enable us to deliver on our mission and values. However, to start, we need to do some research to evaluate front end CSS frameworks, front end build tools, css frameworks, and backend hosting (Oracle).
 
 As we begin this competition, I want to remind you of the importance of our values. People, learning, efficiency, and dependability are the cornerstones of our company, and we must ensure that these values are reflected in everything we do.
 
