@@ -15,6 +15,12 @@ But don't worry, folks, we're not just throwing a bunch of toppings on a pizza a
 
 In conclusion, adopting lean and agile practices can help us work more efficiently, collaborate more effectively, and deliver better results for our clients. And who doesn't want to deliver a pizza...I mean a website, that's hot, fresh, and ready to be devoured by our users? So let's dig in, MyWebClassers, and make this project a success!
 
+
+
+# Assignment Instructions
+
+## Step 1 - Create a rough draft of Themes, Initiatives, and Epics for the project:
+
 # Requirements
 
 ## Front End Testing:
@@ -32,12 +38,12 @@ In conclusion, adopting lean and agile practices can help us work more efficient
 - Infrastructure and Configuration Testing:
 
 ## Node Tool Testing and Evaluation
-Testing node package managers to find the fastest option
-Testing build tools like Webpack, Gulp, and Grunt to determine efficiency
-Implementing coding standards for JavaScript, CSS, and HTML
-Automatically testing w3c validation, handicap accessibility, and JavaScript style
-Metrics to measure: build time, bundle size, and code quality score
-Security, Scalability, and User Experience Testing:
+- Testing node package managers to find the fastest option
+- Testing build tools like Webpack, Gulp, and Grunt to determine efficiency
+- Implementing coding standards for JavaScript, CSS, and HTML
+- Automatically testing w3c validation, handicap accessibility, and JavaScript style
+- Metrics to measure: build time, bundle size, and code quality score
+- Security, Scalability, and User Experience Testing:
 
 ## Security
 - Testing for vulnerabilities and having a plan for responding to security incidents
@@ -67,24 +73,6 @@ Security, Scalability, and User Experience Testing:
 - Calculating storage and bandwidth requirements for a given number of users
 - Metrics to measure: user capacity, concurrent user capacity, storage requirements, and bandwidth requirements.
 
-# Assignment Instructions
-
-## Step 1 - Create a rough draft of Themes, Initiatives, and Epics for the project:
-
-### Read the project requirements below and the Project Analysis Scenario Section after these instructions:
-
-Conduct legal research for the website, implement necessary changes, perform testing and resolve any issues that arise.
-Conduct research and implement internationalization features for the website, perform testing and resolve any issues that arise.
-Conduct SEO research, implement changes, perform testing and resolve any issues that arise.
-Conduct web accessibility research, implement changes, perform testing and resolve any issues that arise.
-Develop a responsive content template and homepage for the website.
-Implement GDPR requirements with Google Analytics using Consent API and Javascript.
-Develop and perform testing with automated tests that can be used to measure site performance in the browser using Playwright.
-Set up a deployment that all members of your team can see to view the progress of the sprint.
-Measure deployment times and research ways to improve them and implement measurable improvements.
-Measure automated test times and research ways to improve them and implement measurable improvements.
-Create easy-to-understand and reliable instructions for installing the project on the developers' Mac or Windows computer.
-Create easy-to-understand instructions and scripts to deploy the project and, if necessary, how to set up the development server.
 ## Step 2 - Break Down Epics into Smaller User Stories:
 
 - Divide the epics into smaller user stories to make it easier to manage the project and track progress.
