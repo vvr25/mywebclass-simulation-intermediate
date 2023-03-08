@@ -27,41 +27,49 @@ So, let's get cooking, MyWebClassers! By adopting lean and agile practices, we c
 
 As CEO of MyWebClass.Org, I believe that the tasks assigned for this sprint support both Agile and Lean business methodologies. Our company is focused on continuous improvement, and these tasks will help us achieve that goal.
 
+# Web Development Project Requirements
+
 ## Front-End Testing
 
 - Choose three different CSS frameworks and implement the homepage and content page using each one. Also, implement the same pages in plain HTML and CSS.
 - Test the performance of Next.js by comparing it to three CSS frameworks and static pages.
-- Use Playwright to automate browser testing of the pages that are currently in the project (homepage, content page, story).  You will need tests for next.js, Bootstrap, Tailwind and any other version of the site you make.
+- Use Playwright to automate browser testing of the pages that are currently in the project (homepage, content page, story). You will need tests for Next.js, Bootstrap, Tailwind, and any other version of the site you make.
 - Measure the following metrics: page load time, accessibility score, best practices score, first contentful paint (FCP), time to interactive (TTI), total blocking time (TBT), cumulative layout shift (CLS), page size, number of requests, bundle size, overall size, and other relevant statistics.
 - For the final report, include industry statistics for each of these metrics, such as average page load time for websites in the same industry or the ideal score for accessibility and best practices.
 
 ## Backend Testing
-- Test the Oracle server with Artilery and Playwright to evaluate next.js and each of the css frameworks 
+
+- Test the Oracle server with Artilery and Playwright to evaluate Next.js and each of the CSS frameworks.
 
 ## DevOps Tools Testing and Evaluation
 
-- Test and evaluate different node package managers to determine which one is the fastest. NPM Yarn and otherss
-- Test and evaluate build tools like Webpack, Veet, and EsBuild to determine their efficiency.
-- Implement and check the DevOps pipeline using GitHub Actions for quality control 
-- Inlcuee checks for coding standards relevant to the project  JavaScript, CSS, and HTML.
-- Generate a LightHouse Report with videos and screen shots of failed tests when GitHub actions run and automatically upload it to view in GitHub Actions. Use Playwright to hit each page to run Lighthouse.
+- Test and evaluate different node package managers to determine which one is the fastest (e.g. NPM, Yarn, etc.).
+- Test and evaluate build tools like Webpack, Vite, and EsBuild to determine their efficiency.
+- Implement and check the DevOps pipeline using GitHub Actions for quality control.
+- Include checks for coding standards relevant to the project (JavaScript, CSS, and HTML).
+- Generate a LightHouse Report with videos and screenshots of failed tests when GitHub actions run and automatically upload it to view in GitHub Actions. Use Playwright to hit each page to run Lighthouse.
 - Automatically test W3C validation, handicap accessibility, and JavaScript style.
 - Run CodeQL using a GitHub action and upload the report to GitHub Actions.
 - Run ESLint and upload the report to GitHub Actions.
 - Measure the following metrics: build time, bundle size, code quality score, and other relevant statistics.
 - For the final report, include industry statistics for each of these metrics, such as average build time for similar projects or the ideal bundle size for websites in the same industry.
 - Create easy-to-follow instructions for local installation and how the developer should use the tools above.
-- Measure the following metrics: deployment time,  developer environment setup time, test running time, and other relevant statistics.
-- Create a document that explains your tools and how you use them as well as the results of your test showing the relevant metrics you collected.
-
+- Measure the following metrics: deployment time, developer environment setup time, test running time, and other relevant statistics.
+- Create a document that explains your tools and how you use them, as well as the results of your test showing the relevant metrics you collected.
+## Development Tasks
+- Conduct legal research for the website, implement necessary changes, perform testing, and resolve any issues that arise. This will help ensure that your website complies with relevant laws and regulations.
+- Conduct research and implement internationalization features for the website, perform testing, and resolve any issues that arise. This will make your website accessible to users from different countries and cultures.
+- Conduct SEO research, implement changes, perform testing, and resolve any issues that arise. This will help improve your website's visibility and ranking on search engines.
+- Conduct web accessibility research, implement changes, perform testing, and resolve any issues that arise. This will help ensure that your website is accessible to users with disabilities.
+- Develop a responsive content template and homepage for the website. This will help ensure that your website is visually appealing and easy to navigate on different devices.
+- Implement GDPR requirements with Google Analytics using Consent API and Javascript. This will help ensure that your website complies with relevant data privacy regulations.
 
 ## Management
-
-- Identify metrics for each category: Bundle (Webpack),  Test (Playwright),and Application performance.
+- Identify metrics for each category: Bundle (Webpack), Test (Playwright), and Application performance.
 - Measure the following metrics: user capacity, concurrent user capacity, storage requirements, bandwidth requirements, and other relevant statistics.
 - For the final report, include industry statistics for each of these metrics, such as average user capacity for websites in the same industry or the ideal storage and bandwidth requirements for a given number of users.
-- Keep a log for each metric in a GOogle sheet and link to it on your Readme.  USe separate sheets for each group of metrics.  Make it easy to maintain and update. 
-
+- Keep a log for each metric in a Google sheet and link to it on your Readme. Use separate sheets for each group of metrics. Make it easy to maintain and update.
+ 
 By completing these tasks, we will be better equipped to deliver high-quality content to our users while improving our development process and optimizing our infrastructure. Good luck and have fun, everyone!
 
 
@@ -166,136 +174,6 @@ agile project management. Let's create a website that blows your mind!
 
 
 
-# Final Report: Front End Testing
 
 
-# Front End Testing
-
-## Introduction
-
-The purpose of this report is to summarize the results of our front-end testing activities. We conducted tests on three different CSS frameworks, as well as plain HTML and CSS. We also tested the performance of Next.js, used Playwright for browser automation testing, Artillery for load testing, and Lighthouse for generating performance, accessibility, and best practices reports.
-
-## Results
-
-### CSS Framework Testing
-
-We chose three different CSS frameworks and implemented the homepage and content page using each one. We also implemented the same pages in plain HTML and CSS. The following metrics were measured:
-
-- Page load time
-- Accessibility score
-- Best practices score
-- First contentful paint (FCP)
-- Time to interactive (TTI)
-- Total blocking time (TBT)
-- Cumulative layout shift (CLS)
-- Page size
-- Number of requests
-
-We compared the metrics for the different CSS frameworks and included industry statistics for each of these metrics in the table.
-
-### Next.js Testing
-
-We tested the performance of Next.js by comparing it to three CSS frameworks and static pages. The following metrics were measured:
-
-- Page load time
-- Accessibility score
-- Best practices score
-- First contentful paint (FCP)
-- Time to interactive (TTI)
-- Total blocking time (TBT)
-- Cumulative layout shift (CLS)
-- Page size
-- Number of requests
-
-We included industry statistics for each of these metrics in the table.
-
-### Playwright Testing
-
-We used Playwright for browser automation testing of the pages that are currently in the project (homepage, content page, story). The following metrics were measured:
-
-- Page load time
-- Page size
-- Number of requests
-
-We included the metrics for each page in the table.
-
-### Artillery Testing
-
-We used Artillery to load test the Oracle server with Playwright until it fails. We tested on AMD Oracle Server 1 or 2 cores, ARM 1 or 2 or 4 cores. The following metrics were measured:
-
-- Configuration
-- Maximum concurrent users
-- Average page load time
-- Bundle size
-- Overall size
-
-We included the metrics in the table.
-
-### Lighthouse Testing
-
-We used Lighthouse to generate performance, accessibility, and best practices reports. The reports were saved in a file format that is easy to view online. The following metrics were measured:
-
-- Page load time
-- Accessibility score
-- Best practices score
-
-We included the metrics in the table.
-
-## Final Report
-
-For the final report, we included industry statistics for each of the metrics measured in the different tests. The report includes the following parts:
-
-- Introduction
-- Results for CSS Framework Testing
-- Results for Next.js Testing
-- Results for Playwright Testing
-- Results for Artillery Testing
-- Results for Lighthouse Testing
-- Conclusion
-
-Each results section includes a table with the measured metrics and the industry statistics for each metric. The conclusion summarizes the overall performance of the different technologies tested and makes recommendations for improvement based on the results.
-
-
-
-## Introduction
-
-The purpose of this report is to summarize the results of our front end testing activities. We conducted tests on three different CSS frameworks, as well as plain HTML and CSS, and compared their performance to Next.js and static pages. We also used Playwright for browser automation testing, Artillery for load testing, and Lighthouse for generating performance, accessibility, and best practices reports.
-
-## Raw Data Example - Modify to add or remove statistics as needed this is only an example.
-
-### CSS Framework Testing
-
-| Framework | Average Load Time (seconds) | Accessibility Score (out of 100) | Best Practices Score (out of 100) | Page Size (MB) | Number of Requests |
-| --- | --- | --- | --- | --- | --- |
-| Framework A | 2.5 | 95 | 97 | 1.2 | 75 |
-| Framework B | 3.2 | 93 | 96 | 1.5 | 85 |
-| Framework C | 4.2 | 80 | 91 | 2.1 | 105 |
-| Plain HTML and CSS | 3.7 | 87 | 95 | 1.8 | 95 |
-
-We found that the fastest CSS framework in terms of page load time was Framework A, which had an average load time of 2.5 seconds. The slowest CSS framework was Framework C, with an average load time of 4.2 seconds. We also found that Framework A had the highest accessibility score, with a score of 95 out of 100, while Framework C had the lowest accessibility score, with a score of 80 out of 100. In terms of best practices, all three CSS frameworks had scores above 90 out of 100, with Framework B scoring the highest at 97.
-
-### Next.js Testing
-
-| Type of Page | Average Load Time (seconds) | Accessibility Score (out of 100) | Best Practices Score (out of 100) | Page Size (MB) | Number of Requests |
-| --- | --- | --- | --- | --- | --- |
-| Next.js | 1.8 | 98 | 99 | 0.8 | 55 |
-| Static Page | 3.5 | 92 | 94 | 1.6 | 90 |
-
-Next.js performed significantly better than the CSS frameworks and static pages in terms of page load time, with an average load time of 1.8 seconds. Next.js also had the highest accessibility and best practices scores, with scores of 98 and 99 out of 100, respectively.
-
-### Playwright Testing
-
-| Page | Average Load Time (seconds) | Page Size (MB) | Number of Requests |
-| --- | --- | --- | --- |
-| Homepage | 2.5 | 1.2 | 75 |
-| Content Page | 3.5 | 1.6 | 90 |
-| Story | 4.2 | 2.1 | 105 |
-
-Using Playwright for browser automation testing, we found that the pages in the project loaded within an acceptable range of time, with an average load time of 3 seconds. However, we also found that the pages had a high number of requests, with an average of 80 requests per page.
-
-### Artillery Testing
-
-| Configuration | Maximum Concurrent Users | Average Page Load Time (seconds) | Bundle Size (MB) | Overall Size (MB) |
-| --- | --- | --- | --- | --- |
-| AMD Oracle Server 1 core | 50 | 3.5 | 1.8 | 
 
