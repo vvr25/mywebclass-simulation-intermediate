@@ -3,12 +3,17 @@
 
 # Overview.
 
-Welcome, As part of this course, you will be required to develop a website for a MyWebClass.org. To help
-you get started, I have provided you with an overview of the project requirements. It is essential that you read through
-these requirements carefully and follow the instructions provided to develop the necessary project documentation. The
-project documentation should be submitted in the format specified in the assignment guidelines. Please note that this is
-a crucial component of the project, and careful attention must be given to ensure that you meet all the requirements
-outlined. Good luck with your project!"
+ey there, MyWebClassers! It's your CEO Keith, and I'm here to talk to you about implementing lean processes and agile project management methodologies. Now, I know what you're thinking, "Oh great, more work for us to do." But trust me, this is going to be a game-changer for our project, and I promise to make it funny!
+
+First off, let's talk about breaking down projects into smaller, more manageable tasks. Think of it like eating a giant pizza. You don't try to shove the whole thing in your mouth at once, right? (Unless you're trying to impress someone, but that's a different story.) Instead, you take small, manageable bites, savoring each delicious slice. That's exactly what we're going to do with our project tasks. We're going to take small, manageable bites, savoring each delicious accomplishment along the way.
+
+And speaking of pizza, let's talk about metrics. Metrics are like the toppings on a pizza. They add flavor and help us measure our progress. We'll be tracking metrics like deployment times, automated test times, and user satisfaction scores. Just like how you measure the amount of cheese on a pizza, we'll measure our progress with these metrics to make sure we're on track to deliver a high-quality product on time and within budget.
+
+Now, let's talk about the tasks themselves. We've identified a set of tasks that are critical for the success of our project. Think of these tasks like toppings on a pizza. Each topping adds flavor and texture to the pizza, just like each task adds value to our project. We'll be conducting legal research, implementing internationalization features, performing SEO research, and making the website accessible to all users. And just like how you might get creative with pizza toppings, we'll be getting creative with our tasks to deliver a website that our users will love.
+
+But don't worry, folks, we're not just throwing a bunch of toppings on a pizza and hoping for the best. We'll be using lean and agile practices to streamline our workflow, increase collaboration and communication, and deliver high-quality work faster. It's like having a well-oiled pizza-making machine, except instead of pizza, we're making a kick-ass website.
+
+In conclusion, adopting lean and agile practices can help us work more efficiently, collaborate more effectively, and deliver better results for our clients. And who doesn't want to deliver a pizza...I mean a website, that's hot, fresh, and ready to be devoured by our users? So let's dig in, MyWebClassers, and make this project a success!
 
 # Assignment Instructions
 
@@ -16,24 +21,18 @@ outlined. Good luck with your project!"
 
 ### Read the project requirements below and the Project Analysis Scenario Section after these instructions:
 
-1. Conduct legal research for the website, implement necessary changes, perform testing and resolve any issues that
-   arise.
-2. Conduct research and implement internationalization features for the website, perform testing and resolve any issues
-   that arise.
-3. Conduct SEO research, implement changes, perform testing and resolve any issues that arise.
-4. Conduct web accessibility research, implement changes, perform testing and resolve any issues that arise.
-5. Develop a responsive content template and homepage for the website.
-6. Implement GDPR requirements with Google Analytics using Consent API and Javascript.
-7. Develop and perform testing with automated tests that can be used to measure site performance in the browser using
-   Playwright
-8. Set up a deployment that all members of your team can see to view the progress of the sprint
-9. Measure deployment times and research ways to improve them and implement measurable improvements
-10. Measure automated test times and research ways to improve them and implement measurable improvements
-11. Create easy-to-understand and reliable instructions for installing the project on the developers mac or Windows
-    computer
-12. Create easy-to-understand instructions and scripts to deploy the project and if necessary how to set up the
-    development server
-
+Conduct legal research for the website, implement necessary changes, perform testing and resolve any issues that arise.
+Conduct research and implement internationalization features for the website, perform testing and resolve any issues that arise.
+Conduct SEO research, implement changes, perform testing and resolve any issues that arise.
+Conduct web accessibility research, implement changes, perform testing and resolve any issues that arise.
+Develop a responsive content template and homepage for the website.
+Implement GDPR requirements with Google Analytics using Consent API and Javascript.
+Develop and perform testing with automated tests that can be used to measure site performance in the browser using Playwright.
+Set up a deployment that all members of your team can see to view the progress of the sprint.
+Measure deployment times and research ways to improve them and implement measurable improvements.
+Measure automated test times and research ways to improve them and implement measurable improvements.
+Create easy-to-understand and reliable instructions for installing the project on the developers' Mac or Windows computer.
+Create easy-to-understand instructions and scripts to deploy the project and, if necessary, how to set up the development server.
 ## Step 2 - Break Down Epics into Smaller User Stories:
 
 - Divide the epics into smaller user stories to make it easier to manage the project and track progress.
