@@ -18,22 +18,23 @@ Engineering. So, take it seriously, work hard, and have fun! Good luck, and I lo
 
 ## Devops Testing Report Requirements - Create a PowerPoint with Slides to Report on the Following
 
-1. Develop and perform testing with automated tests that can be used to measure site performance in the browser using
-   Playwright
-    - Add a slide to your presentation to describe each automated test you create
-    - You must write Playwright tests to check every requirement identified in your analysis and should have around
-      40-50 tests
-    - Use the Recorder and ChatGPT to help you write tests
-    - Research how to make Playwright tests
-    - Identify statistics you want to record related to the performance of running Playwright tests
-    - Record statistics at the start of the project and research how to reduce them and propose solutions to implement
-      in the next sprint
-    - Research how to set up the GitHub action for Playwright reporting to share the recorded videos and screenshots of
-      tests
-2. Measure Webpack build times, build size, and research ways to improve them and implement measurable improvements
-3. Measure automated test run times and research ways to improve them and implement measurable improvements
-4. Measure deployment run times and research ways to improve them and implement measurable improvements
-5. Link to your project DevOps documentation: developer docs and deployment docs
+1. Backend Testing
+- Test the Oracle server with Artillery and Playwright to evaluate Next.js and each of the CSS frameworks.
+
+2. DevOps Tools Testing and Evaluation
+- Test and evaluate different node package managers to determine which one is the fastest. (NPM, Yarn, and others)
+- Test and evaluate build tools like Webpack, Veet, and EsBuild to determine their efficiency.
+- Implement and check the DevOps pipeline using GitHub Actions for quality control.
+- Include checks for coding standards relevant to the project: JavaScript, CSS, and HTML.
+- Generate a Lighthouse Report with videos and screenshots of failed tests when GitHub actions run and automatically upload it to view in GitHub Actions. Use Playwright to hit each page to run Lighthouse.
+- Automatically test W3C validation, handicap accessibility, and JavaScript style.
+- Run CodeQL using a GitHub action and upload the report to GitHub Actions.
+- Run ESLint and upload the report to GitHub Actions.
+- Measure the following metrics: build time, bundle size, code quality score, and other relevant statistics.
+- Include industry statistics for each of these metrics in your presentation, such as average build time for similar projects or the ideal bundle size for websites in the same industry.
+- Create easy-to-follow instructions for local installation and how the developer should use the tools above.
+- Measure the following metrics: deployment time, developer environment setup time, test running time, and other relevant statistics.
+- Create a document that explains your tools and how you use them, as well as the results of your test showing the relevant metrics you collected.
 
 ## DevOps Tasks - Documentation to Add To Your Project's ReadMe
 
@@ -64,9 +65,6 @@ the overall performance, reliability, and availability of the website. Good luck
 | Teamwork                   | Demonstrates excellent teamwork, with effective communication, strong collaboration, and a positive attitude towards team members | Demonstrates good teamwork, with adequate communication, collaboration, and a generally positive attitude towards team members | Demonstrates some teamwork, but with ineffective communication, limited collaboration, or a negative attitude towards team members | Demonstrates poor teamwork, with little or no communication, collaboration, or positive attitude towards team members|
 Total Points __ out of Possible 20 Points
 
-# Devops Content Begins Below
-
-Total Points __ out of Possible 25 Points
 
 ## Introduction to Project Requirements spoken by MyWebClass.org CEO
 
@@ -114,4 +112,6 @@ By monitoring these performance metrics, DevOps and Site Reliability Engineers c
 the system and make informed decisions to improve the overall performance, reliability, and availability of the website.
 So, I urge you to take these tasks seriously and pay close attention to the performance metrics. Good luck with your
 project!
+
+
 
