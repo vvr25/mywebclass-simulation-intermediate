@@ -19,10 +19,7 @@ If you have any questions or concerns about the assignments, grading or assessme
 Best regards,
 
 P. Williams
-
-#Readings:
-
-https://12factor.net
+\
 
 # Submit any questions or Issues to the Repository, so that they can be tracked and resolved.
 
@@ -44,7 +41,6 @@ Finally, use Playwright to create powerful and reliable automated tests for web 
 ## Instructor Project Videos - Will Be Updated as They Are Recorded
 1. [Part 1 - Getting Ready for Project 1](https://youtu.be/b60nwHeJjrQ)
 2. [Part 2 - Lean and Using ChatGPT for The Project ](https://youtu.be/EZMRNybUtUI)
-3. [Part 3 - Project Introduction](#)
 4. TBD
 
 # Project Setup
