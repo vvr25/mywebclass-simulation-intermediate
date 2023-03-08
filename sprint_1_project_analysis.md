@@ -3,17 +3,17 @@
 
 # Overview.
 
-Hey there, MyWebClassers! It's your CEO Keith, and I'm here to talk to you about implementing lean processes and agile project management methodologies. Now, I know what you're thinking, "Oh great, more work for us to do." But trust me, this is going to be a game-changer for our project, and I promise to make it funny!
+Hey there, MyWebClassers! It's your CEO Keith, and I'm back to talk to you about lean and agile practices. Don't worry, I promise to keep it funny!
 
-First off, let's talk about breaking down projects into smaller, more manageable tasks. Think of it like eating a giant pizza. You don't try to shove the whole thing in your mouth at once, right? (Unless you're trying to impress someone, but that's a different story.) Instead, you take small, manageable bites, savoring each delicious slice. That's exactly what we're going to do with our project tasks. We're going to take small, manageable bites, savoring each delicious accomplishment along the way.
+So, imagine you're eating a giant pizza. You wouldn't try to shove the whole thing in your mouth at once, would you? (Unless you're trying to impress someone, but that's a different story.) No, you'd take small, manageable bites, savoring each delicious slice. That's exactly what we're going to do with our project tasks. We're going to break them down into small, manageable bites, savoring each delicious accomplishment along the way.
 
-And speaking of pizza, let's talk about metrics. Metrics are like the toppings on a pizza. They add flavor and help us measure our progress. We'll be tracking metrics like deployment times, automated test times, and user satisfaction scores. Just like how you measure the amount of cheese on a pizza, we'll measure our progress with these metrics to make sure we're on track to deliver a high-quality product on time and within budget.
+And just like toppings on a pizza, metrics add flavor and help us measure our progress. We'll be tracking metrics like deployment times, automated test times, user satisfaction scores, and even the number of high-fives we give each other for a job well done. That's right, folks, we're counting high-fives now. And just like how you measure the amount of cheese on a pizza, we'll measure our progress with these metrics to make sure we're on track to deliver a high-quality product on time and within budget.
 
 Now, let's talk about the tasks themselves. We've identified a set of tasks that are critical for the success of our project. Think of these tasks like toppings on a pizza. Each topping adds flavor and texture to the pizza, just like each task adds value to our project. We'll be conducting legal research, implementing internationalization features, performing SEO research, and making the website accessible to all users. And just like how you might get creative with pizza toppings, we'll be getting creative with our tasks to deliver a website that our users will love.
 
 But don't worry, folks, we're not just throwing a bunch of toppings on a pizza and hoping for the best. We'll be using lean and agile practices to streamline our workflow, increase collaboration and communication, and deliver high-quality work faster. It's like having a well-oiled pizza-making machine, except instead of pizza, we're making a kick-ass website.
 
-In conclusion, adopting lean and agile practices can help us work more efficiently, collaborate more effectively, and deliver better results for our clients. And who doesn't want to deliver a pizza...I mean a website, that's hot, fresh, and ready to be devoured by our users? So let's dig in, MyWebClassers, and make this project a success!
+So, let's get cooking, MyWebClassers! By adopting lean and agile practices, we can work more efficiently, collaborate more effectively, and deliver better results for our clients. And who doesn't want to deliver a website that's hot, fresh, and ready to be devoured by our users? Let's make this project a success and celebrate with a pizza party (or a high-five party, if that's more your style).
 
 
 
@@ -31,8 +31,7 @@ As CEO of MyWebClass.Org, I believe that the tasks assigned for this sprint supp
 
 - Choose three different CSS frameworks and implement the homepage and content page using each one. Also, implement the same pages in plain HTML and CSS.
 - Test the performance of Next.js by comparing it to three CSS frameworks and static pages.
-- Use Playwright to automate browser testing of the pages that are currently in the project (homepage, content page, story).
-- Use Lighthouse to generate performance, accessibility, and best practices reports. Save the reports in a file format that is easy to view online.
+- Use Playwright to automate browser testing of the pages that are currently in the project (homepage, content page, story).  You will need tests for next.js, Bootstrap, Tailwind and any other version of the site you make.
 - Measure the following metrics: page load time, accessibility score, best practices score, first contentful paint (FCP), time to interactive (TTI), total blocking time (TBT), cumulative layout shift (CLS), page size, number of requests, bundle size, overall size, and other relevant statistics.
 - For the final report, include industry statistics for each of these metrics, such as average page load time for websites in the same industry or the ideal score for accessibility and best practices.
 
@@ -41,16 +40,17 @@ As CEO of MyWebClass.Org, I believe that the tasks assigned for this sprint supp
 
 ## DevOps Tools Testing and Evaluation
 
-- Test different node package managers to determine which one is the fastest. NPM Yarn and otherss
-- Test build tools like Webpack, Veet, and EsBuild to determine their efficiency.
-- Implement and check the DevOps pipeline using GitHub Actions for quality control coding standards for JavaScript, CSS, and HTML.
+- Test and evaluate different node package managers to determine which one is the fastest. NPM Yarn and otherss
+- Test and evaluate build tools like Webpack, Veet, and EsBuild to determine their efficiency.
+- Implement and check the DevOps pipeline using GitHub Actions for quality control 
+- Inlcuee checks for coding standards relevant to the project  JavaScript, CSS, and HTML.
 - Generate a LightHouse Report with videos and screen shots of failed tests when GitHub actions run and automatically upload it to view in GitHub Actions. Use Playwright to hit each page to run Lighthouse.
 - Automatically test W3C validation, handicap accessibility, and JavaScript style.
 - Run CodeQL using a GitHub action and upload the report to GitHub Actions.
 - Run ESLint and upload the report to GitHub Actions.
 - Measure the following metrics: build time, bundle size, code quality score, and other relevant statistics.
 - For the final report, include industry statistics for each of these metrics, such as average build time for similar projects or the ideal bundle size for websites in the same industry.
-- Create easy-to-follow instructions for local installation and developer operation.
+- Create easy-to-follow instructions for local installation and how the developer should use the tools above.
 - Measure the following metrics: deployment time,  developer environment setup time, test running time, and other relevant statistics.
 - Create a document that explains your tools and how you use them as well as the results of your test showing the relevant metrics you collected.
 
@@ -60,6 +60,7 @@ As CEO of MyWebClass.Org, I believe that the tasks assigned for this sprint supp
 - Identify metrics for each category: Bundle (Webpack),  Test (Playwright),and Application performance.
 - Measure the following metrics: user capacity, concurrent user capacity, storage requirements, bandwidth requirements, and other relevant statistics.
 - For the final report, include industry statistics for each of these metrics, such as average user capacity for websites in the same industry or the ideal storage and bandwidth requirements for a given number of users.
+- Keep a log for each metric in a GOogle sheet and link to it on your Readme.  USe separate sheets for each group of metrics.  Make it easy to maintain and update. 
 
 By completing these tasks, we will be better equipped to deliver high-quality content to our users while improving our development process and optimizing our infrastructure. Good luck and have fun, everyone!
 
