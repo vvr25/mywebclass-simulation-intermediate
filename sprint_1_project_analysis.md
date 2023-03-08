@@ -15,6 +15,58 @@ But don't worry, folks, we're not just throwing a bunch of toppings on a pizza a
 
 In conclusion, adopting lean and agile practices can help us work more efficiently, collaborate more effectively, and deliver better results for our clients. And who doesn't want to deliver a pizza...I mean a website, that's hot, fresh, and ready to be devoured by our users? So let's dig in, MyWebClassers, and make this project a success!
 
+# Requirements
+
+## Front End Testing:
+
+- Playwright for browser automation testing
+- Artillery and/or Siege for load testing
+- Lighthouse for generating performance, accessibility, and best practices reports
+- Metrics to measure: page load time, accessibility score, and best practices score
+## Back End Testing:
+
+- Automated deployment using bash scripts or Terraform
+- Oracle hardware for testing AMD and Ampere CPUs
+- Testing Postgres database with varying numbers of users and associated content
+- Metrics to measure: response time, database query time, and server resource usage
+- Infrastructure and Configuration Testing:
+
+## Node Tool Testing and Evaluation
+Testing node package managers to find the fastest option
+Testing build tools like Webpack, Gulp, and Grunt to determine efficiency
+Implementing coding standards for JavaScript, CSS, and HTML
+Automatically testing w3c validation, handicap accessibility, and JavaScript style
+Metrics to measure: build time, bundle size, and code quality score
+Security, Scalability, and User Experience Testing:
+
+## Security
+- Testing for vulnerabilities and having a plan for responding to security incidents
+- Testing for performance bottlenecks and having a plan for scaling up infrastructure
+- Metrics to measure: security score, scalability score, and user satisfaction score
+## Deployment and Instructions:
+
+- Creating easy-to-follow instructions for local installation
+- Creating instructions for setting up various sized deployments for testing
+- Testing Next.js and comparing it to three CSS frameworks and static pages
+- Testing existing Flask app with Postgres database and creating test plans for each tool
+- Metrics to measure: deployment time, setup time, and test running time
+
+# Production Readiness:
+
+- Using automated testing and continuous integration to catch issues early
+- Using a robust logging system to capture errors and monitor performance
+- Setting up alerts to notify of critical issues and implementing email and external monitoring tools
+- Developing a logging strategy to track application and server performance
+- Metrics to measure: error rate, downtime, and system resource usage
+
+# Capacity Planning and Cost Estimation:
+
+- Identifying metrics for each testing category
+- Developing a plan for capacity planning and cost estimation
+- Identifying maximum number of users and concurrent users
+- Calculating storage and bandwidth requirements for a given number of users
+- Metrics to measure: user capacity, concurrent user capacity, storage requirements, and bandwidth requirements.
+
 # Assignment Instructions
 
 ## Step 1 - Create a rough draft of Themes, Initiatives, and Epics for the project:
@@ -130,133 +182,5 @@ at a 3-point task for less complexity.
 
 So there you have it, folks! We're building a solid foundation, prioritizing your needs, and having some fun with our
 agile project management. Let's create a website that blows your mind!
-
-# Understanding the Requirements of a Webpage / Website
-
-## Technical Requirements
-
-When creating a website or webpage, meeting technical requirements is essential to ensure that the website is
-user-friendly, accessible to all users, and optimized for search engines. The technical requirements that must be met
-include the use of semantic markup to make it clear what content is and how it relates to the page as a whole. This
-means that alternative text descriptions must be provided for images to aid visually impaired users, and captions,
-transcripts, or audio descriptions for video and audio content. Forms must have proper labels and error messages, links
-should be descriptive and indicate their purpose, and text should have sufficient contrast with the background.
-Additionally, keyboard navigation must be possible, sites must be optimized for fast loading times, and they should be
-responsive and accessible on different devices. By meeting these technical requirements, web developers and designers
-can create websites and web applications that are both functional and user-friendly.
-
-### Key Points
-
-- Semantic markup to make it clear what content is and how it relates to the page as a whole
-- Alternative text descriptions for images to aid visually impaired users
-- Captions, transcripts, or audio descriptions for video and audio content
-- Proper labels and error messages for forms
-- Descriptive links indicating their purpose
-- Sufficient contrast between text and background
-- Keyboard navigation
-- Optimized for fast loading times
-- Responsive and accessible on different devices
-
-## SEO Requirements
-
-Creating a website or webpage that is accessible, well-structured, and optimized for search engines requires meeting a
-variety of technical and legal/business requirements. These requirements are designed to ensure that websites are
-user-friendly, accessible to all users, and compliant with legal regulations.
-
-From a technical perspective, websites must be designed with semantic markup that makes it clear to users and search
-engines what the content is and how it relates to the page as a whole. This means that images must have alternative text
-descriptions so that visually impaired users can understand the content, and video and audio content must have captions,
-transcripts, or audio descriptions. Forms must have proper labels and error messages, links should be descriptive and
-indicate their purpose, and text should have sufficient contrast with the background. Keyboard navigation must be
-possible, sites must be optimized for fast loading times, and they should be responsive and accessible on different
-devices.
-
-In addition to technical requirements, there are also a number of SEO requirements that must be met. This includes the
-use of appropriate meta tags, descriptive URLs, proper use of heading tags, relevant and high-quality content, and
-internal linking. Structured data is also important for rich snippets in search results.
-
-### Key Points
-
-- Use appropriate meta tags
-- Descriptive URLs
-- Proper use of heading tags
-- Relevant and high-quality content
-- Internal linking
-- Structured data for rich snippets in search results
-
-## Internationalization Requirements
-
-Internationalization requirements include the use of appropriate language attributes, character encoding that supports
-multiple languages, and localized URLs and content. Proper use of currency symbols and formatting ensures that users
-understand the currency being used on a webpage.
-
-### Key Points
-
-- Appropriate language attributes
-- Character encoding that supports multiple languages
-- Localized URLs and content
-- Proper use of currency symbols and formatting
-- Proper use of date and time formats
-
-## Legal
-
-Legal and business requirements are also important for website creation. This includes compliance with copyright laws
-and regulations, proper handling of user data and privacy policies, and compliance with industry-specific regulations
-such as HIPAA for healthcare or FINRA for finance. Websites must also comply with local laws and regulations such as the
-General Data Protection Regulation (GDPR) in Europe.
-
-To ensure compliance with these requirements, there are several free tools and resources available. For example, the Web
-Content Accessibility Guidelines (WCAG) provide detailed guidelines for making web content more accessible to users with
-disabilities. Google Analytics and Google Search Console can help track website traffic and identify areas for
-improvement. Creative Commons provides free licenses for sharing and using copyrighted content, as well as legal
-templates and guides for creating privacy policies and disclaimers.
-
-Compliance with industry-specific regulations, such as those related to healthcare or finance, may also be necessary
-depending on the nature of the website or web application. For example, healthcare-related websites must comply with
-HIPAA regulations, which govern the privacy and security of personal health information. Similarly, financial websites
-must comply with regulations such as the Gramm-Leach-Bliley Act and the Payment Card Industry Data Security Standard (
-PCI DSS).
-
-Proper attribution of third-party content and sources is also an important legal requirement. This involves properly
-citing any images, text, or other content used on the website that is not original. This helps to avoid issues with
-copyright infringement and plagiarism.
-
-Finally, compliance with local laws and regulations may also be necessary. For example, in Europe, websites must comply
-with the General Data Protection Regulation (GDPR), which governs the collection, use, and storage of personal data.
-Understanding and complying with all of these legal and business requirements is essential for creating a successful and
-legally compliant website or web application.
-
-### Key Points
-
-- Compliance with copyright laws and regulations
-- Proper handling of user data and privacy policies
-- Compliance with industry-specific regulations
-- Compliance with local laws and regulations
-- Proper Attribution of Third-Party Content and Sources
-- Give credit to any third-party content or sources used
-- Establish credibility and trust with users
-- Compliance with Local Laws and Regulations (e.g. GDPR in Europe)
-- Understand and comply with specific laws and regulations
-- Avoid legal issues and penalties
-
-## Tools and Resources
-
-- To ensure that all of these technical and legal/business requirements are met, there are a variety of free tools and
-  resources available. By leveraging these resources, web developers and designers can create websites and web
-  applications that are both functional and legally compliant. Meeting these requirements not only helps to ensure that
-  a website is accessible and compliant, but it can also improve the user experience and ultimately lead to better
-  engagement and business outcomes.
-
-### Key Points
-
-- Web Content Accessibility Guidelines (WCAG)
-- Google Analytics and Google Search Console
-- Creative Commons
-- WAVE Web Accessibility Evaluation Tool
-- Markup Validation Service
-- Localize
-- TermsFeed
-
-
 
 
