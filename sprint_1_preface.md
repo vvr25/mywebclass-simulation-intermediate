@@ -191,6 +191,77 @@ area include Cloud Engineer ($88k-$182k), Cloud Architect ($117k-$234k), and Clo
 I hope this helps provide some context on the importance of these concepts in web development and the associated job
 titles and salaries
 
+Playwright - an open-source Node.js library for automation testing of web applications. It provides a simple and efficient API for automating web browsers such as Chromium, Firefox, and WebKit.
+Example job title: Automation Test Engineer
+
+Salary range: $65,000 - $100,000
+
+Resource: https://playwright.dev/
+
+Artillery - a modern load testing and functional testing toolkit built for Node.js. It can run distributed tests from multiple cloud providers and generate detailed HTML reports.
+Example job title: Load Test Engineer
+
+Salary range: $75,000 - $120,000
+
+Resource: https://artillery.io/
+
+Lighthouse - an open-source tool from Google that audits web pages for performance, accessibility, and best practices.
+Example job title: Performance Engineer
+
+Salary range: $85,000 - $140,000
+
+Resource: https://developers.google.com/web/tools/lighthouse/
+
+Terraform - an open-source infrastructure as code tool that allows developers to create, manage, and version infrastructure. It supports multiple cloud providers such as AWS, Azure, and Google Cloud.
+Example job title: DevOps Engineer
+
+Salary range: $95,000 - $150,000
+
+Resource: https://www.terraform.io/
+
+Oracle hardware - a family of computer hardware products and solutions, including servers, storage, networking, and cloud services. It is commonly used in enterprise-level applications.
+Example job title: Oracle Hardware Engineer
+
+Salary range: $110,000 - $170,000
+
+Resource: https://www.oracle.com/hardware/
+
+Postgres - an open-source relational database management system that is known for its reliability and performance. It is commonly used in web applications and can handle large amounts of data.
+Example job title: Postgres Database Administrator
+
+Salary range: $80,000 - $130,000
+
+Resource: https://www.postgresql.org/
+
+Webpack - a popular open-source module bundler for JavaScript applications. It allows developers to bundle multiple modules into a single file for deployment.
+Example job title: Front-end Engineer
+
+Salary range: $75,000 - $120,000
+
+Resource: https://webpack.js.org/
+
+Gulp - an open-source task runner that automates repetitive tasks in a development workflow. It is commonly used for automating build processes and front-end development.
+Example job title: Build Engineer
+
+Salary range: $70,000 - $110,000
+
+Resource: https://gulpjs.com/
+
+Next.js - an open-source React-based framework for building server-rendered web applications. It provides features such as automatic code splitting, server-side rendering, and optimized performance.
+Example job title: Full Stack Developer
+
+Salary range: $90,000 - $140,000
+
+Resource: https://nextjs.org/
+
+ElasticSearch - a search engine based on the Lucene library. It is commonly used for text-based search and analytics, and can handle large amounts of data.
+Example job title: Search Engineer
+
+Salary range: $90,000 - $140,000
+
+Resource: https://www.elastic.co/
+
+These are just some of the technologies we will be using for our project, and the salaries listed are estimates based on industry averages. Actual salaries may vary based on location, experience, and other factors.
 ## Conclusion
 
 The MyWebClass simulation is an exciting opportunity for you to learn about software engineering and modern business
