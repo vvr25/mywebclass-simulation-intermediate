@@ -1,121 +1,123 @@
 # Product Development
+## Introduction to Project Requirements spoken by MyWebClass.org CEO
 
-## Product Development Project Tasks
+Greetings, fellow developers! As the CEO of MyWebClass.org, I'm here to talk to you about the most exciting part of our jobs: legal compliance! (insert sarcastic eye roll) 
 
-In this section of the project, you will be focusing on product development for your website. To ensure that your
-website is user-friendly, legally compliant, and accessible to everyone, you will need to complete the following tasks:
+Now, I know what you're thinking. "But boss, I went into web development to avoid lawyers and paperwork!" Well, tough luck, my friends. We've got to comply with all those pesky regulations and laws if we want to avoid getting sued and keep our website running.
 
-1. Conduct legal research for the website, implement necessary changes, perform testing, and resolve any issues that
-   arise. This will help ensure that your website complies with relevant laws and regulations.
+But don't worry, it's not all boring legal stuff. We've also got to make our website accessible to people from all over the world. That means translating everything into Klingon and emoji, right? (pause for laughter) Just kidding, we'll settle for some basic internationalization features.
 
-2. Conduct research and implement internationalization features for the website, perform testing, and resolve any issues
-   that arise. This will make your website accessible to users from different countries and cultures.
+And speaking of features, we've got to make sure our website is visible on search engines. Otherwise, we'll end up like that one website that nobody visits except for the owner's mom. (insert exaggerated sad face) So let's get our SEO game on and make sure we're the top result for "awesome web development resources"!
 
-3. Conduct SEO research, implement changes, perform testing, and resolve any issues that arise. This will help improve
-   your website's visibility and ranking on search engines.
+But wait, there's more. We've also got to make our website accessible to people with disabilities. Because who needs to see images or hear audio when you can just read text in size 72 font, am I right? (pause for laughter) Okay, I'm kidding again. Let's make our website inclusive and welcoming to everyone.
 
-4. Conduct web accessibility research, implement changes, perform testing, and resolve any issues that arise. This will
-   help ensure that your website is accessible to users with disabilities.
+And don't forget about the most important task of all: choosing the best front-end framework. Will it be HTML, Next.js, Bootstrap, Foundation, or Material Design? It's like the Avengers of web development! (pause for laughter) But seriously, let's evaluate them all and choose the one that meets our needs and impresses our users.
 
-5. Develop a responsive content template and homepage for the website. This will help ensure that your website is
-   visually appealing and easy to navigate on different devices.
+Last but not least, we've got to comply with GDPR regulations and protect our users' privacy. Because we're not just web developers, we're superheroes who fight for justice and data protection!
 
-6. Implement GDPR requirements with Google Analytics using Consent API and Javascript. This will help ensure that your
-   website complies with relevant data privacy regulations.
+So let's roll up our sleeves, grab some coffee, and get to work. We've got a website to develop and a world to conquer! (insert inspiring music and dramatic exit)
+## Development Requirements 
+### 1. Front-End Testing
+- Choose three different CSS frameworks and implement the homepage and content page using each one. Also, implement the same pages in plain HTML and CSS.
+- Test the performance of Next.js by comparing it to three CSS frameworks and static pages.
+- Use Playwright to automate browser testing of the pages that are currently in the project (homepage, content page, story). You will need tests for Next.js, Bootstrap, Tailwind, and any other version of the site you make.
+- Measure the following metrics: page load time, accessibility score, best practices score, first contentful paint (FCP), time to interactive (TTI), total blocking time (TBT), cumulative layout shift (CLS), page size, number of requests, bundle size, overall size, and other relevant statistics.
+- Include industry statistics for each of these metrics in your presentation, such as average page load time for websites in the same industry or the ideal score for accessibility and best practices.
+### 2. Development Tasks
+- Conduct legal research for the website, implement necessary changes, perform testing, and resolve any issues that arise. This will help ensure that your website complies with relevant laws and regulations.
+- Conduct research and implement internationalization features for the website, perform testing, and resolve any issues that arise. This will make your website accessible to users from different countries and cultures.
+- Conduct SEO research, implement changes, perform testing, and resolve any issues that arise. This will help improve your website's visibility and ranking on search engines.
+- Conduct web accessibility research, implement changes, perform testing, and resolve any issues that arise. This will help ensure that your website is accessible to users with disabilities.
+- Develop a responsive content template and homepage for the website. This will help ensure that your website is visually appealing and easy to navigate on different devices.
+- Implement GDPR requirements with Google Analytics using Consent API and Javascript. This will help ensure that your website complies with relevant data privacy regulations.
 
 Make sure to carefully follow the instructions for each task and pay close attention to any issues that arise during
 testing. By completing these tasks, you will ensure that your website is legally compliant, accessible, user-friendly,
 and optimized for search engines. Good luck with your project!
 
-## Product Development Report Requirements - Create a PowerPoint with Slides to Report on the Following
+# Product Development PowerPoint Report Requirements
 
-1. A Product Summary Slide
-2. A section slide summarizing your internationalization research (make sure you cover utf-8 and languages)
-    1. A slide explaining the business requirement need
-    2. A slide identifying the positive tests you need to implement for this requirement
-    3. A slide describing negative tests required
-    4. A slide with any tools or technologies useful for implementation or testing
-3. A slide summarizing your search engine optimization research for on-page optimizations and technical issues
-    1. A slide explaining the business requirement need
-    2. A slide identifying the positive tests you need to implement for this requirement
-    3. A slide describing negative tests required
-    4. A slide with any tools or technologies useful for implementation or testing
-4. A slide summarizing your web accessibility research
-    1. A slide explaining the business legal requirements
-    2. A slide explaining the legal requirements
-    3. A slide identifying the positive tests you need to implement for this requirement
-    4. A slide describing negative tests required
-    5. A slide with any tools or technologies useful for implementation or testing
-5. A slide explaining the responsive design of your home page and content template
-    1. A slide explaining your research into front end responsive frameworks for CSS and JavaScript like Bootstrap,
-       Foundation, Material Design, and Others that you evaluated.
-    2. A slide explaining the selection of your framework feel free to use Bootstrap 5, It's what I use, but you can use
-       another one
-    3. A slide with a 5-10 second screen recording (not with your phone) of your site showing how the home page and
-       content page appear on mobile and desktop
-6. A Slide Explaining GDPR Compliance
-   and [The Google Analytics Consent Mode API](https://support.google.com/analytics/answer/9976101?hl=en)
-    1. A slide explaining your research into GDPR Compliance and Google Analytics Consent
-    2. A slide explaining technical implementation of this requirement
-    3. A slide with a 5-10 second screen recording (not with your phone) of your site showing your implementation
-       working and show the browser console local storage and cookies to see that it works
-    4. A Slide with a photo of your privacy policy
-    5. A Slide with a photo of your confirmation modal for GDPR
-7. A slide with a link to your completed web project 
+## I. Implementing Key Features
+### A. Internationalization
+1. Determine business requirements for internationalization
+2. Identify positive and negative tests to ensure internationalization works as intended
+3. Research and implement tools and technologies to support internationalization
+4. Recommend tools with data and specific reasons why each tool was chosen
+
+### B. Search Engine Optimization (SEO)
+1. Determine business requirements for SEO
+2. Identify positive and negative tests to ensure SEO works as intended
+3. Research and implement tools and technologies to support SEO
+4. Recommend tools with data and specific reasons why each tool was chosen
+
+### C. Web Accessibility
+1. Determine legal requirements for web accessibility
+2. Identify positive and negative tests to ensure web accessibility works as intended
+3. Research and implement tools and technologies to support web accessibility
+4. Recommend tools with data and specific reasons why each tool was chosen
+
+### D. Responsive Design
+1. Research front-end responsive frameworks for CSS and JavaScript
+2. Compare HTML/Next.js/Bootstrap/and at least two other front-end frameworks
+3. Explain recommendation and support with facts and data
+4. Demonstrate how the home page and content page appear on mobile and desktop
+5. Recommend tools with data and specific reasons why each tool was chosen
+
+### E. GDPR Compliance and Google Analytics Consent Mode API
+1. Research GDPR compliance and Google Analytics Consent Mode
+2. Explain technical implementation of GDPR compliance and the API
+3. Demonstrate implementation and show that it works
+4. Provide a privacy policy and confirmation modal for GDPR compliance
+5. Recommend tools with data and specific reasons why each tool was chosen
+
+## II. Key Performance Metrics Logging
+### A. Front-end Testing Metrics
+1. Measure page load time, accessibility score, best practices score, FCP, TTI, TBT, CLS, page size, number of requests, bundle size, and overall size
+2. Evaluate package managers and log metrics for them
+3. Recommend tools with data and specific reasons why each tool was chosen
+
+### B. Backend Testing Metrics
+1. Measure user capacity, concurrent user capacity, storage requirements, and bandwidth requirements
+2. Recommend tools with data and specific reasons why each tool was chosen
+
+### C. DevOps Tools Testing and Evaluation Metrics
+1. Measure build time, bundle size, code quality score, deployment time, developer environment setup time, and test running time
+2. Recommend tools with data and specific reasons why each tool was chosen
+
+## III. Additional Requirements
+### A. Include logs of key performance metrics in the final report
+### B./ Provide clear instructions for local installation and tool usage
+
+By completing these tasks, we will be better equipped to deliver high-quality content to our users while improving our development process and optimizing our infrastructure.
+
    
 ## Submission Instructions
 1. Upload the report to canvas and host your videos on YouTube, so the file's are not too big and embed them in the PowerPoint
 
 ## Grading Rubric
 
-| Criteria                                 | Excellent (2) | Good (1.5) | Fair (1) | Poor (0.5) | Needs Improvement (0)|
-|------------------------------------------| --- | --- | --- | --- | ---|
-| Conducting legal research                | Implemented necessary changes, performed testing, and resolved all issues | Implemented necessary changes, performed testing, and resolved most issues | Implemented some necessary changes, performed some testing, and resolved some issues | Implemented few necessary changes, performed little testing, and resolved few issues | Did not conduct legal research or implement necessary changes
-| Internationalization features            | Implemented necessary changes, performed testing, and resolved all issues | Implemented necessary changes, performed testing, and resolved most issues | Implemented some necessary changes, performed some testing, and resolved some issues | Implemented few necessary changes, performed little testing, and resolved few issues | Did not conduct research or implement necessary changes
-| SEO optimization                         | Implemented necessary changes, performed testing, and resolved all issues | Implemented necessary changes, performed testing, and resolved most issues | Implemented some necessary changes, performed some testing, and resolved some issues | Implemented few necessary changes, performed little testing, and resolved few issues | Did not conduct research or implement necessary changes
-| Web accessibility                        | Implemented necessary changes, performed testing, and resolved all issues | Implemented necessary changes, performed testing, and resolved most issues | Implemented some necessary changes, performed some testing, and resolved some issues | Implemented few necessary changes, performed little testing, and resolved few issues | Did not conduct research or implement necessary changes
-| Responsive content template and homepage | Developed a visually appealing and easy-to-navigate template and homepage that work well on different devices | Developed a visually appealing and easy-to-navigate template and homepage that mostly work well on different devices | Developed a template and homepage that work on some devices but have some issues | Developed a template and homepage that have significant issues on different devices | Did not develop a responsive content template and homepage
-|  GDPR requirements with Google Analytics | Implemented GDPR requirements using Consent API and Javascript and resolved all issues | Implemented GDPR requirements using Consent API and Javascript and resolved most issues | Implemented GDPR requirements using Consent API and Javascript and resolved some issues | Implemented GDPR requirements using Consent API and Javascript but did not resolve many issues | Did not implement GDPR requirements with Google Analytics
+| Criteria                                                      | Points | Student Score |
+|---------------------------------------------------------------|-------|---------------|
+| I. Implementing Key Features (total points: 8)                |       |               |
+| A. Internationalization                                      | 2     |               |
+| B. Search Engine Optimization (SEO)                           | 2     |               |
+| C. Web Accessibility                                         | 2     |               |
+| D. Responsive Design                                         | 1     |               |
+| E. GDPR Compliance and Google Analytics Consent Mode API      | 1     |               |
+| II. Key Performance Metrics Logging (total points: 8)         |       |               |
+| A. Front-end Testing Metrics                                 | 3     |               |
+| B. Backend Testing Metrics                                   | 2     |               |
+| C. DevOps Tools Testing and Evaluation Metrics                | 3     |               |
+| III. Additional Requirements (total points: 4)                |       |               |
+| A. Include logs of key performance metrics in the final report| 1     |               |
+| B. Include industry statistics for each metric                | 1     |               |
+| C. Provide clear instructions for local installation and tool usage| 2     |               |
+| Total                                                         | 20    |               |
 
 Total Points __ out of Possible 20 Points 
 
 
-# Development Content Begins Below
-
-## Introduction to Project Requirements spoken by MyWebClass.org CEO
-
-As the CEO of MyWebClass.org, I take great pride in our mission to serve the needs of a diverse community and set a good
-example for teachers and students alike. That's why I'm passionate about the importance of the following tasks for our
-website's development team.
-
-First and foremost, we must conduct legal research and ensure that our website complies with all relevant laws and
-regulations. This isn't just about avoiding legal trouble, it's about setting a standard of integrity and responsibility
-for ourselves and our users.
-
-Next, we must conduct research and implement internationalization features to make our website accessible to users from
-different countries and cultures. We want to make sure that our platform is inclusive and welcoming to everyone, no
-matter where they're from.
-
-Third, we need to conduct SEO research and implement changes to improve our website's visibility and ranking on search
-engines. This is about getting our message out there and making sure that our website reaches as many people as
-possible.
-
-Fourth, we must conduct web accessibility research and ensure that our website is accessible to users with disabilities.
-We want to make sure that everyone can access our platform and get the information they need, regardless of any
-disabilities they may have.
-
-Fifth, we need to develop a responsive content template and homepage for our website. This is about creating a
-user-friendly experience that works well on any device, from desktops to mobile phones.
-
-And finally, we must implement GDPR requirements with Google Analytics using Consent API and JavaScript to ensure that
-our website complies with relevant data privacy regulations. This is about respecting the privacy of our users and being
-responsible stewards of their data.
-
-Overall, these tasks are crucial for our team to fulfill our mission and serve our community in the best way possible. I
-know that with your passion and expertise, we can make MyWebClass.org the best it can be. Let's get to work!
-
-
-# Website Development and Automated Testing
+# Website Development and Automated Testing Resources
 
 ## Introduction
 This document outlines important considerations for website development and the use of automated testing to ensure compliance with legal regulations, accessibility, internationalization, SEO optimization, and responsive design. It also provides information on HTML, CSS, and JavaScript and front-end frameworks like Bootstrap, Foundation, and Tailwind.
